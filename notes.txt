@@ -1,0 +1,23 @@
+node js is a javascript engine which is originally built for the browser but now it can work without a browser
+as well and having some extra api's with itit loows to run javascript outside the browser
+now it is taken out fron the chrome v8 engine and now it is maintained as a standalone object to
+help the js to run outside the browser 
+so it is an open-source server side runtime environment buitl in a chrome v8 engine and it is
+non-blocking asynchrounous input output oprationsas well as the cross platform run-time applications
+for building the highly scalable and server side applications with using javascirpt.
+MVC APPROACH-------->for creating the  API (modela,views,controlers)
+any function can be asynched and then can await promises too
+jwt->authentication
+session->mongoose
+Transactions in MongoDB allow you to perform multiple database operations as a single atomic unit. If any operation within the transaction fails, all the changes made in that transaction will be rolled back, ensuring data consistency.
+await movie.save({ session });: This line saves the movie document to the database. The { session } option is passed to the save method to associate the save operation with the ongoing transaction in the session.
+
+(property) onChange?: ((event: React.SyntheticEvent<Element, Event>, value: any) => void) | undefined
+Callback fired when the value changes.
+
+@param event — The event source of the callback. Warning: This is a generic event not a change event.
+
+@param value — We default to the index of the child (number)
+
+(property) sx?: SxProps<Theme> | undefined
+The system prop that allows defining system overrides as well as additional CSS styles.
